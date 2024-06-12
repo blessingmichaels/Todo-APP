@@ -49,7 +49,7 @@ const Todo = () => {
 
     return (
         <div className='bg-white place-self-center w-11/12 
-         max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
+         max-w-md flex flex-col p-7 min-h-[550px] rounded-xl max-sm:w-10/12 max-sm:min-h-screen'>
 
 
             {/* ---------title------- */}
@@ -67,7 +67,7 @@ const Todo = () => {
                 <input ref={inputRef} className='bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2
                  placeholder:text-slate-600 '
                     type="text" placeholder='Add your task' />
-                <button onClick={add} className='border-none rounded-full bg-green-500 w-32 h-14 max-sm:w-20
+                <button onClick={add} className='border-none rounded-full bg-green-500 w-32 h-14 max-sm:w-28
                  text-white text-lg font-medium cursor-pointer max-sm:text-center max-sm:text-sm '>ADD +</button>
             </div>
 
